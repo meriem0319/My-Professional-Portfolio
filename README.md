@@ -29,7 +29,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Screenshot
 
-<img src="./assets/images/MyPortfolioScreenshot.png"/>
+<img src="./assets/images/updatedPortfolio.png"/>
 
 ## 🖥️ Deployment
 
