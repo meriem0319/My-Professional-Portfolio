@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,21 +20,25 @@
     background: #b26ec7;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .navbar .max-width {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .navbar .logo a {
     font-size: 40px;
     font-weight: 600;
     color: black;
-    
+
 }
+
 .navbar .menu li {
     list-style: none;
     display: inline-block;
 }
+
 .navbar .menu li a {
     font-size: 18px;
     font-weight: 500;
@@ -44,6 +48,7 @@
     color: black;
     transition: color 0.3s ease;
 }
+
 .navbar .menu li a:hover {
     color: #ffa089;
 }
@@ -53,27 +58,32 @@
     display: flex;
     background: url("images/mypic.png") no-repeat center;
     height: 100vh;
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
     color: black;
     min-height: 500px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .home .max-width {
     margin: auto 0 auto 40px;
 }
+
 .home .home-content .text-hello {
     font-size: 25px;
 }
+
 .home .home-content .text-name {
     font-size: 70px;
     font-weight: 600;
     margin-left: -2px;
 }
+
 .home .home-content .text-intro {
     font-size: 35px;
     margin: 5px 0;
 }
+
 .home .home-content .text-intro span {
     color: #ffa089;
     font-weight: 500;
@@ -83,9 +93,11 @@
 section {
     padding: 100px 0;
 }
+
 .about {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .about .title {
     position: relative;
     text-align: center;
@@ -95,12 +107,14 @@ section {
     padding-bottom: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .about .about-content {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .about .about-content .left {
     width: 45%;
 }
@@ -111,14 +125,17 @@ section {
     object-fit: cover;
     border-radius: 10px;
 }
+
 .about .about-content .right {
     width: 45%;
 }
+
 .about .about-content .right .text {
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
+
 .about .about-content .right p {
     text-align: justify;
 }
@@ -128,6 +145,7 @@ section {
     background: #b26ec7;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .work .title {
     position: relative;
     text-align: center;
@@ -137,17 +155,20 @@ section {
     padding-bottom: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .work .work-content {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .work .work-content .card .text {
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
+
 .work .work-content .card {
     width: calc(33% - 20px);
 }
@@ -156,6 +177,7 @@ section {
 .contact {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .contact .title {
     position: relative;
     text-align: center;
@@ -165,13 +187,14 @@ section {
     padding-bottom: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .contact .contact-content {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 10px;
-    font-weight:600;
+    font-weight: 600;
     font-size: 25px;
 }
 
@@ -183,6 +206,7 @@ section {
     }
 
 }
+
 @media (max-width: 1104px) {
     .about .about-content .left .img {
         height: 300px;
@@ -200,30 +224,37 @@ section {
     .max-width {
         padding: 0 50px;
     }
-    .navbar .menu li a{
+
+    .navbar .menu li a {
         display: inline-block;
         margin: 5px 0;
         font-size: 18px;
         margin-left: 5px;
         list-style: none;
     }
+
     .home .home-content .text-intro {
         font-size: 70px;
     }
+
     .home .home-content .text-name {
         font-size: 35px;
     }
+
     .max-width {
         max-width: 800px;
     }
+
     .about .about-content .column {
         width: 100%;
     }
+
     .about .about-content .left {
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
     }
+
     .about .about-content .right {
         flex: 100%;
     }
@@ -233,9 +264,11 @@ section {
     .max-width {
         padding: 0 23px;
     }
+
     .home .home-content .text-intro {
         font-size: 60px;
     }
+
     .home .home-content .text-name {
         font-size: 32px;
     }
@@ -245,16 +278,44 @@ section {
     .max-width {
         padding: 0 23px;
     }
+
     .home .home-content .text-intro {
         font-size: 50px;
     }
+
     .home .home-content .text-name {
         font-size: 27px;
     }
 }
 
-img {  
-  width: 200px;
-  height: 200px;
-  border: 8px solid black;
+/* added the size of the images of the My Work section  */
+#myWork {
+    width: 200px;
+    height: 200px;
+    border: 8px solid black;
+}
+
+/* adding the different color link to click for My Work section  */
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
 }
