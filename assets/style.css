@@ -252,3 +252,9 @@ section {
         font-size: 27px;
     }
 }
+
+img {  
+  width: 200px;
+  height: 200px;
+  border: 8px solid blue;
+}
